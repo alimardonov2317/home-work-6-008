@@ -1,0 +1,103 @@
+import Bio1 from "../assets/Bio1.svg";
+import Bio2 from "../assets/Bio2.svg";
+import Bio3 from "../assets/Bio3.svg";
+import Bio4 from "../assets/Bio4.svg";
+import Bio5 from "../assets/Bio5.svg";
+import Bio6 from "../assets/Bio6.svg";
+
+import MEDIA1 from "../assets/MEDIA1.png"
+import MEDIA2 from "../assets/MEDIA2.png"
+import MEDIA3 from "../assets/MEDIA3.png"
+
+export const LINKS = [
+    {
+        to: "/",
+        link: "Home"
+    },
+    {
+        to: "/about",
+        link: "About"
+    },
+    {
+        to: "/whatwedo",
+        link: "What We Do"
+    },
+    {
+        to: "/media",
+        link: "Media"
+    },
+    {
+        to: "/contact",
+        link: "Contact"
+    }
+];
+
+export const BIO = [
+    {
+        img: Bio1,
+        title: "Build healthy cities",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+    },
+    {
+        img: Bio2,
+        title: "Build healthy cities",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+    },
+    {
+        img: Bio3,
+        title: "Build healthy cities",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+    },
+    {
+        img: Bio4,
+        title: "Build healthy cities",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+    },
+    {
+        img: Bio5,
+        title: "Build healthy cities",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+    },
+    {
+        img: Bio6,
+        title: "Build healthy cities",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
+    }
+];
+
+
+export const MEDIA = [
+    {
+        img: MEDIA1,
+        title: "Don’t destroy greenery and don’t spoil scenery.",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim"
+    },
+    {
+        img: MEDIA2,
+        title: "Why saving wildlife is extremely important",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim"
+    },
+    {
+        img: MEDIA3,
+        title: "Caring for the present is caring for the future",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim"
+    }
+]
+
+export const NEWS = [
+    {
+        img:
+            title: "Don’t destroy greenery and don’t spoil scenery",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim",
+    },
+    {
+        img:
+            title: "Don’t destroy greenery and don’t spoil scenery",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim",
+    },
+    {
+        img:
+            title: "Don’t destroy greenery and don’t spoil scenery",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim",
+    }
+]
