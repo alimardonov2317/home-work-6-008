@@ -5,14 +5,14 @@ import Bio4 from "../assets/Bio4.svg";
 import Bio5 from "../assets/Bio5.svg";
 import Bio6 from "../assets/Bio6.svg";
 
-import MEDIA1 from "../assets/MEDIA1.png"
-import MEDIA2 from "../assets/MEDIA2.png"
-import MEDIA3 from "../assets/MEDIA3.png"
+import MEDIA1 from "../assets/Media1.png"
+import MEDIA2 from "../assets/Media2.png"
+import MEDIA3 from "../assets/Media3.png"
 
-import NEWS1 from "../assets/NEWS1.png"
-import NEWS2 from "../assets/NEWS2.png"
-import NEWS3 from "../assets/NEWS3.png"
-import NEWS4 from "../assets/NEWS4.png"
+import NEWS1 from "../assets/News1.png"
+import NEWS2 from "../assets/News2.png"
+import NEWS3 from "../assets/News3.png"
+import NEWS4 from "../assets/News4.png"
 
 export const LINKS = [
     {
