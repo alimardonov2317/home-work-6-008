@@ -1,8 +1,16 @@
 import React from 'react'
+import Header from '../../components/header/Header'
+import ContactHero from './ContactHero'
+import ContactForm from './ContactForm'
 
 const Contact = () => {
     return (
-        <div>contact</div>
+        <>
+            <Header backgroundHeader={"bg-[#EBF0F9]"} />
+            <ContactHero />
+            <ContactForm />
+
+        </>
     )
 }
 

@@ -24,7 +24,6 @@ a {
 li {
    list-style: none;
 }
-button,
-input {
+button {
    border: none;
 }

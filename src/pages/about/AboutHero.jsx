@@ -11,9 +11,8 @@ const AboutHero = () => {
                         <span className='uppercase text-[#1D2130] font-bold'>Know About us</span>
                     </div>
                     <div className='flex mt-8'>
-                        <div>
+                        <div className='ml-24'>
                             <h2 className='text-5xl text-[#1D2130] font-bold max-w-[607px]'>We help nature smile and survive everywhere</h2>
-
                         </div>
                         <div className='max-w-[496px]'>
                             <p className='text-xl font-bold pb-4'>Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>

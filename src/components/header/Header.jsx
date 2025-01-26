@@ -7,7 +7,11 @@ const Header = ({ backgroundHeader }) => {
         <header className={` h-[67px] flex items-center ${backgroundHeader}`}>
             <div className='container'>
                 <nav className='flex gap-10 items-center'>
-                    <div className='flex-1'><img src={siteLogo} alt="" /></div>
+                    <div className='flex-1'>
+                        <NavLink to={"/"}>
+                            <img src={siteLogo} alt="" />
+                        </NavLink>
+                    </div>
                     <ul className='flex items-center gap-10'>
                         {
                             LINKS.map((item, inx) => (

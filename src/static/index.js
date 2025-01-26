@@ -9,6 +9,11 @@ import MEDIA1 from "../assets/MEDIA1.png"
 import MEDIA2 from "../assets/MEDIA2.png"
 import MEDIA3 from "../assets/MEDIA3.png"
 
+import NEWS1 from "../assets/NEWS1.png"
+import NEWS2 from "../assets/NEWS2.png"
+import NEWS3 from "../assets/NEWS3.png"
+import NEWS4 from "../assets/NEWS4.png"
+
 export const LINKS = [
     {
         to: "/",
@@ -69,7 +74,7 @@ export const BIO = [
 export const MEDIA = [
     {
         img: MEDIA1,
-        title: "Don’t destroy greenery and don’t spoil scenery.",
+        title: "Don't destroy greenery and don't spoil scenery.",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim"
     },
     {
@@ -86,18 +91,23 @@ export const MEDIA = [
 
 export const NEWS = [
     {
-        img:
-            title: "Don’t destroy greenery and don’t spoil scenery",
+        img: NEWS1,
+        title: "Don't destroy greenery and don't spoil scenery",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim",
     },
     {
-        img:
-            title: "Don’t destroy greenery and don’t spoil scenery",
+        img: NEWS2,
+        title: " Is climate change happening faster than expected?",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim",
     },
     {
-        img:
-            title: "Don’t destroy greenery and don’t spoil scenery",
+        img: NEWS3,
+        title: "Top 10 facts about wind farms you didn't know",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim",
+    },
+    {
+        img: NEWS4,
+        title: "Our goal is to make water available for everyone",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim",
     }
 ]
