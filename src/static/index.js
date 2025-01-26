@@ -111,3 +111,19 @@ export const NEWS = [
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim",
     }
 ]
+
+export const FOOTERLINK = [
+    {
+        title: "Our team",
+        link: ["About us", "Team", "What we do", "Contact"]
+    },
+
+    {
+        title: "More",
+        link: ["Projects", "Events", "Donate", "Blog"]
+    },
+    {
+        title: "Connect ",
+        link: ["Facebook", "Instagram", "Twitter", "LinkedIn"]
+    }
+]

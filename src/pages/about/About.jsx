@@ -1,6 +1,7 @@
 import React from 'react'
 import AboutHero from './AboutHero'
 import Header from '../../components/header/Header'
+import Footer from '../../components/footer/Footer'
 
 const about = () => {
     return (
@@ -8,6 +9,7 @@ const about = () => {
         <>
             <Header />
             <AboutHero />
+            <Footer />
         </>
     )
 }

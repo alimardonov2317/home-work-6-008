@@ -2,6 +2,7 @@ import React from 'react'
 import WhatWeHero from './WhatWeHero'
 import WhatWeBio from './WhatWeBio'
 import Header from '../../components/header/Header'
+import Footer from '../../components/footer/Footer'
 
 const WhatWeDo = () => {
     return (
@@ -9,6 +10,7 @@ const WhatWeDo = () => {
             <Header />
             <WhatWeHero />
             <WhatWeBio />
+            <Footer />
         </>
     )
 }
