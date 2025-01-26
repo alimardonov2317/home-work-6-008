@@ -6,6 +6,7 @@ import About from './pages/about/About'
 import WhatWeDo from './pages/whatwedo/WhatWeDo'
 import Media from './pages/media/Media'
 import Contact from './pages/contact/Contact'
+import NotFound from './pages/notFound/NotFound'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path='/whatwedo' element={< WhatWeDo />} />
         <Route path='/media' element={<Media />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </>
   )
